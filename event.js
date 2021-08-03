@@ -4,7 +4,7 @@ class TicketType {
     this.price = price;
   }
 }
-
+// creating object Event
 class Event {
   constructor(name, description) {
     this.name = name;
