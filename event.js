@@ -11,7 +11,7 @@ class Event {
     this.description = description;
     this.availableTickets = [];
   }
-  // new code
+  // addAvailableTickets
   addAvailableTickets(name, price) {
     this.availableTickets.push(new TicketType(name, price));
   }
