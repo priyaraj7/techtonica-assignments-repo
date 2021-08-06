@@ -3,6 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
@@ -12,8 +13,18 @@
     </header>
     <!-- <main> -->
     <div class="flex-container">
-      <button id="flip" type="button">Flip a coin</button>
+      <!-- flip button -->
+      <button class="button" id="flip" type="button">Flip a coin</button>
+      <!-- result -->
       <p id="result"></p>
+
+      <!-- refresh button -->
+      <input
+        class="button"
+        type="button"
+        value="Refresh Page"
+        onClick="location.href=location.href"
+      />
     </div>
 
     <!-- //</main> -->

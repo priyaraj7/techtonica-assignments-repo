@@ -3,10 +3,11 @@
 function getRandomInt() {
   return Math.floor(Math.random() * 2);
 }
-
+// Returns a reference to the first object with the specified value of the ID attribute.
 let button = document.getElementById("flip");
 let result = document.getElementById("result");
 
+// adding eventlistener
 button.addEventListener("click", function () {
   let num = getRandomInt();
 
