@@ -7,6 +7,8 @@
   font-weight: 800;
   cursor: pointer;
   outline: none;
+  height: 84px;
+  width: 84px;
 }
 
 /* Board component styling */
@@ -19,4 +21,9 @@
   display: grid;
   /* for creating 3 by 3 board */
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.winner {
+  width: 200px;
+  margin: 20px auto;
 }
