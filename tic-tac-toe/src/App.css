@@ -1,0 +1,33 @@
+/* App component styling */
+.app-header {
+  text-align: center;
+}
+
+/* Square component styling */
+
+.buttonSquare {
+  border: 2px solid black;
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
+  height: 84px;
+  width: 84px;
+}
+
+/* Board component styling */
+.board {
+  border: 4px solid black;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: grid;
+  /* for creating 3 by 3 board */
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.winner {
+  width: 200px;
+  margin: 20px auto;
+}
