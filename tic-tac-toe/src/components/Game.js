@@ -24,7 +24,7 @@ const Game = () => {
 
   return (
     <>
-      <Board squares={board} onClick={handleClick} />;
+      <Board squares={board} onClick={handleClick} />
       <div className="winner">
         <p>
           {winner
